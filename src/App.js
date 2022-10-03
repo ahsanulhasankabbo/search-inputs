@@ -1,9 +1,10 @@
 import './App.css';
+import SearchInputs from './Components/SearchInputs';
 
 function App() {
   return (
     <div>
-      <h1 className='text-red-500'>Hello world</h1>
+      <SearchInputs></SearchInputs>
     </div>
   );
 }
