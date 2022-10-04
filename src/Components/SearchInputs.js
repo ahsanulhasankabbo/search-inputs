@@ -4,7 +4,7 @@ import Information from './Information';
 const SearchInputs = () => {
     const [informations, setInformations] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/infomations")
+        fetch("https://search-input-server.onrender.com/infomations")
             .then(res => res.json())
             .then(data => setInformations(data))
     }, [])
